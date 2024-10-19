@@ -32,7 +32,7 @@ Para ejecutar el programa, sigue estos pasos:
 
     Al ejecutar el programa, verás un mensaje de bienvenida:
 
-    ```python
+    ```bash
     Bienvenido al generador y solucionador de laberintos.
     ```
 
@@ -40,7 +40,7 @@ Para ejecutar el programa, sigue estos pasos:
 
     Se te solicitará que ingreses el ancho y alto del laberinto:
 
-    ```python
+    ```bash
     Ingrese el ancho del laberinto (1-50):
     Ingrese el alto del laberinto (1-50):
     ```
@@ -53,18 +53,18 @@ Para ejecutar el programa, sigue estos pasos:
 
     Ejemplo:
 
-    ```pyhton
+    ```
     Laberinto generado:
     +---+---+---+---+---+
-    | E     |           |
-    +   +   +---+   +   +
-    |   |   |   |   |   |
-    +   +   +   +---+   +
-    |   |   |       |   |
+      E |               |
     +   +---+---+   +   +
+    |           |   |   |
+    +---+---+   +   +   +
+    |   |       |   |   |
+    +   +   +---+   +   +
     |   |           |   |
-    +   +   +---+---+   +
-    |   |   |       | S |
+    +   +---+---+---+   +
+    |                 S
     +---+---+---+---+---+
     ```
 
@@ -74,18 +74,18 @@ Para ejecutar el programa, sigue estos pasos:
 
     El programa resolverá el laberinto y mostrará el camino de solución:
 
-    ```python
+    ```
     Solución encontrada:
     +---+---+---+---+---+
-    | E *   |           |
-    +   +   +---+   +   +
-    |   | * |   |   |   |
-    +   +   +   +---+   +
-    |   | * | * * * |   |
+      E |         *   * |
     +   +---+---+   +   +
-    |   |       *   |   |
-    +   +   +---+---+   +
-    |   |   |       | S |
+    | *   *   * | * | * |
+    +---+---+   +   +   +
+    |   | *   * | * | * |
+    +   +   +---+   +   +
+    |   | *   *   * | * |
+    +   +---+---+---+   +
+    |                 S
     +---+---+---+---+---+
     ```
 
