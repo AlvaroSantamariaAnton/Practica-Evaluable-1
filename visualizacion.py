@@ -1,4 +1,3 @@
-# Importamos los módulos necesarios
 class Visualizador:
     """
     Clase para visualizar el laberinto y su solución.
